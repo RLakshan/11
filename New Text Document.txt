@@ -1,0 +1,12 @@
+<form action="form.php" method="post">
+        Name : <input type="text" placeholder="Enter name" name="name"><br> 
+        Email : <input type="text" placeholder="Enter email" name="email"><br>
+        <input type="submit">
+    </form>
+
+<html>
+    <body>   
+    name is : <?php echo $_POST["name"];?><br>
+    email : <?php echo $_POST["email"];?><br>
+</body>
+</html>
